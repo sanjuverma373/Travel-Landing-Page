@@ -24,7 +24,7 @@
     --blue: #2E476B;
     --orange: #F66F4D;
     --silver-light: #9498A4;
-    --white-FA: #FAF8ED;
+    --cream: #FAF8ED;
     --white: #FFF;
     --gray: #676A6C;
     --dark-gray: #3D3D3D;
@@ -113,8 +113,8 @@
 .color-silver-light{
     color: var(--silver-light);
 }
-.color-white-FA{
-    color: var(--white-FA);
+.bg-cream{
+    background-color: var(--cream);
 }
 .color-white{
     color: var(--white);
