@@ -1,0 +1,48 @@
+@import url("./root.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+.my-container{
+    max-width: 1170px !important;
+}
+/* footer */
+.social-icons{
+    border: 1px solid var(--light-black);
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    transition: .4s;
+}
+.social-icons:hover{
+    border: 1px solid var(--orange);    
+}
+.social-icons > svg path{
+    fill: var(--light-black);
+    transition: .4s;
+}
+.social-icons:hover >svg path{
+    fill: var(--orange);
+}
+.f-line::before{
+    content: '';
+    width: 0;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: -3%;
+    transition: .4s;
+    background-color: var(--gray);
+}
+.f-line:hover::before{
+    width: 100%;
+}
+.line-height-34{
+    line-height: 34px;
+}
+.pl-0{
+    padding-left: 0;
+}
