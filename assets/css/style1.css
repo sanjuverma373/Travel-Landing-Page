@@ -9,7 +9,60 @@
 .my-container{
     max-width: 1170px !important;
 }
+/* review section */
+.position-prev {
+    bottom: 35%;
+    right: 15%;
+}
+
+.position-next {
+    bottom: 35%;
+    right: 9%;
+}
+.prev-3 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--black);
+    transition: .4s;
+}
+.prev-3:hover{
+    background-color: var(--black);
+}
+.prev-3:hover > svg path{
+    fill: var(--white);
+}
+
+.next-3 {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid #2D3134;
+    transition: .4s;
+}
+.next-3:hover{
+    background-color: var(--black);
+}
+.next-3:hover > svg path{
+    fill: var(--white);
+}
+.review-card {
+    max-width: 537px;
+    height: 283px;
+    border-radius: 14px;
+    background: #FFF;
+}
+.content-2{
+    padding: 30px;
+}
+.slick-slide {
+    margin-right: 30px;
+}
+
 /* signup section */
+
 .bg-signup-img{
     background-image: url("../images/signup-background.png");
     border-radius: 30px;
@@ -58,13 +111,14 @@ input{
     width: 0;
     height: 2px;
     position: absolute;
-    left: 0;
+    right: 0;
     bottom: -3%;
-    transition: .4s;
+    transition: .5s;
     background-color: var(--gray);
 }
 .f-line:hover::before{
     width: 100%;
+    left: 0;
 }
 .line-height-34{
     line-height: 34px;
