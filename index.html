@@ -5,13 +5,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Travel Landing Page </title>
-    <link rel="icon" href="./assets/images/fav-icon.png ">
+    <link rel="icon" href="./assets/images/nav-icon-img.png">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 
-<body class="flow">
+<body>
+     <!-- nav-section -->
+     <nav class="py-4 ">
+        <div class="container my-container">
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="d-flex ">
+                    <img src="./assets/images/nav-icon-img.png" alt="">
+                    <p class="">Salty</p>
+                <label id="menuicon" onclick="responsive()">
+                    <span class="cross-4"></span>
+                    <span class="cross-5"></span>
+                    <span class="cross-6"></span>
+                </label>
+                <ul class="d-flex align-items-center gap-15 nav-bar pl-0  " id="nav">
+                    <li><a class="fonts-nav-bar ff-poppine line" href="#" onclick="responsive()">Home</a></li>
+                    <li><a class="fonts-nav-bar ff-poppine line" href="#" onclick="responsive()">Mission</a></li>
+                    <li><a class="fonts-nav-bar ff-poppine line" href="#" onclick="responsive()">Training</a></li>
+                    <li><a class="fonts-nav-bar ff-poppine line" href="#" onclick="responsive()">Village History</a></li>
+                    <li><a class="fonts-nav-bar ff-poppine line" href="#" onclick="responsive()">Forum</a></li>               
+
+                </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
     
     <script src="./assets/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
