@@ -12,9 +12,9 @@
     --fs-lg-1: 26px;
     --fs-lg-2: 28px;
     --fs-lg-3: 30px;
-    --fs-xl: 40px;
+    --fs-xl: 35px;
     --fs-xl-1: 46px;
-    --fs-xl-2: 56px;
+    --fs-xl-2: 35px;
     --fs-xl-3: 84px;
 
 
@@ -130,4 +130,10 @@
 }
 .color-silver{
     color: var(--silver);
+}
+@media (min-width:576px) {
+    :root{ --fs-xl-2: 56px;
+        --fs-xl: 40px;
+    }
+    
 }
