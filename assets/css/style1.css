@@ -38,7 +38,7 @@
     width: 42px;
     height: 24px;
     border-radius: 12px;
-    background-color: var(--blackF);
+    background-color: var(--black);
 }
 
 /* review section */
@@ -60,12 +60,16 @@
     border: 1px solid var(--black);
     transition: .4s;
 }
-.prev-3:hover{
-    background-color: var(--black);
-}
-.prev-3:hover > svg path{
-    fill: var(--white);
-}
+
+
+span:hover svg path {
+    stroke: white;
+    cursor: pointer;
+  }
+  span:hover svg circle {
+    stroke: #2d3134;
+    cursor: pointer;
+  }
 
 .next-3 {
     width: 54px;
