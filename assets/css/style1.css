@@ -62,15 +62,6 @@
 }
 
 
-span:hover svg path {
-    stroke: white;
-    cursor: pointer;
-  }
-  span:hover svg circle {
-    stroke: #2d3134;
-    cursor: pointer;
-  }
-
 .next-3 {
     width: 54px;
     height: 54px;
@@ -114,15 +105,10 @@ span:hover svg path {
     padding-right: 12px;
 }
 
-input{
-    /* padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 26px;
-    padding-right: 30px; */
+input{    
     border-radius: 12px;
     border: unset;
-     max-width: 450px;
-    
+     max-width: 450px;    
     outline: none;
     color: var(--gray);
 }
