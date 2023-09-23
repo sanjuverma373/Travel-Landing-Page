@@ -131,6 +131,11 @@
 .color-silver{
     color: var(--silver);
 }
+
+@media (min-width: 575.8px) {    
+    
+}
+
 @media (min-width:576px) {
     :root{ --fs-xl-2: 56px;
         --fs-xl: 40px;
