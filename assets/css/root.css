@@ -131,3 +131,8 @@
 .color-silver{
     color: var(--silver);
 }
+
+@media (min-width: 575.8px) {    
+    
+}
+
