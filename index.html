@@ -31,15 +31,15 @@
                         <span class="cross-6"></span>
                     </label>
                     <ul class="d-flex align-items-center gap-4  nav-bar " id="nav">
-                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative " href="#"
+                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative home" href="#home"
                                 onclick="responsive()">Home</a></li>
-                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative " href="#"
+                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative about" href="#about"
                                 onclick="responsive()">About us</a></li>
-                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative " href="#Destination"
+                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative destination" href="#Destination"
                                 onclick="responsive()">Destinations</a></li>
-                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative " href="#"
+                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative tour" href="#tours"
                                 onclick="responsive()">Tours</a></li>
-                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative " href="#"
+                        <li><a class=" fs-m-sm fw-normal color-blue line ff-poppins position-relative blog" href="#blog"
                                 onclick="responsive()">Blog</a></li>
                             <li> <a href="" onclick="responsive()" class="nav-btn nav-bar fw-medium fs-m-sm color-orange d-flex d-lg-none " >Book Now <span><svg
                                 width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@
 
     <!-- discover-section -->
     <section class="pb-md-4 pb-3 bg-cream ">
-        <div class="container my-container">
+        <div id="#home" class="container my-container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-12  pt-3 pt-md-5  ">
                     <h1 class="color-black fs-x-xl fw-bold ff-sen">Discover the Best Lovely Places</h1>
@@ -137,7 +137,7 @@
                         don’t be confused—they’re already grouped by
                         category.</p>
                 </div>
-                <div class=" d-flex justify-content-sm-end justify-content-between  gap-4">
+                <div class=" d-flex justify-content-sm-end justify-content-between  gap-sm-4 gap-3">
                     <span class="arro-btn   ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
                             <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134" />
@@ -233,14 +233,14 @@
     </section>
 
     <!-- Find Popular Destination -->
-    <section class="pt-md-5 pb-md-4 pt-4 pb-3 position-relative bg-cream   overflow-hidden ">
+    <section class="pt-md-5 pb-md-4 pt-4 pb-3 position-relative bg-cream   overflow-hidden oneside-overflow">
         <div class="container my-container">
             <div class="row">
                 <div class="d-flex align-items-center justify-content-between  ">
                 <div>
                     <h2 class="color-black fs-m-xl fw-semibold mx-400 pb-4 ff-inter ">Find Popular Destination</h2>
                 </div>
-                <div class="d-flex justify-content-end gap-4 pb-4">
+                <div class="d-flex justify-content-end gap-md-4 gap-3 pb-4">
                     <span class="arro-btn1 ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="54" height="54" viewBox="0 0 54 54" fill="none">
                             <circle cx="27" cy="27" r="26.5" transform="matrix(-1 0 0 1 54 0)" stroke="#2D3134" />
@@ -416,7 +416,7 @@
 
     <!-- review section -->
     <section class="position-relative pt-md-5 pt-3 bg-cream ">
-        <div class="container my-container py-md-5 py-4">
+        <div id="#about"  class="container my-container py-md-5 py-4">
             <div class="row justify-content-between pb-md-5 pb-3">
                 <div class="col-lg-4  col-md-6  col-12 pb-5">
                     <img class="w-100" src="assets/images/review-section-img.png" alt="review-section-img">
@@ -783,7 +783,7 @@
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 2,
-                        slidesToScroll: 2,
+                        slidesToScroll: 1,
                         infinite: true,
                         dots: false
                     }
@@ -791,8 +791,8 @@
                 {
                     breakpoint: 600,
                     settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
+                        slidesToShow: 1,
+                        slidesToScroll: 1
                     }
                 },
                 {
