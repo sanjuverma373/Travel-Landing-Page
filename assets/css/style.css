@@ -433,13 +433,13 @@ input{
         grid-column: 4/5;
 
     }
-    .ml-lg-380{
-        margin-left: 380px;
+    .pl-lg-380{
+        padding-left: 240px;
     }
    
 }
 
-@media (max-width:991.8px) {
+@media (max-width:1011px) {
     label[id="menuicon"] {
         width: 30px;
         height: 24px;
