@@ -433,6 +433,9 @@ input{
         grid-column: 4/5;
 
     }
+    .ml-lg-380{
+        margin-left: 380px;
+    }
    
 }
 

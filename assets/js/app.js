@@ -8,6 +8,7 @@ let about=document.querySelector(".about");
 let destination=document.querySelector(".destination");
 let blog=document.querySelector(".blog");
 let tour=document.querySelector(".tour");
+let label=document.querySelector("label");
 
 
 
@@ -37,5 +38,8 @@ blog.addEventListener("click",function(){
 })
 
 tour.addEventListener("click",function(){
+    document.querySelector("body").classList.remove("overflow-hidden")
+})
+label.addEventListener("click",function(){
     document.querySelector("body").classList.remove("overflow-hidden")
 })
